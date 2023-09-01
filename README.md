@@ -1,8 +1,4 @@
 
-
-
-
-
 <div id="user-content-toc">
   <ul align="left">
     <summary><h1 style="display: inline-block">Appoinment App</h1></summary>
@@ -67,6 +63,37 @@ I value your feedback and suggestions. If you have any comments, questions, or i
 I'm always open to collaboration and welcome the opportunity to work on exciting projects together.<br>
 Thank you for visiting my project. I hope you have a wonderful experience exploring it, and I look forward to connecting with you soon!
 
+## Project Skeleton
+
+```
+Appoinment App (folder)
+|
+|-- public
+|     |-- img
+|     |-- favicon.ico
+|     |-- index.html
+|     |-- logo192.png
+|     |-- logo512.png
+|     |-- manifest.json
+|     |-- robots.txt
+|-- src
+|    |-- components
+|    |     |-- AddModal.jsx
+|    |     |-- AppointmentList.jsx
+|    |     |-- Doctors.jsx
+|    |     |-- HazırData.jsx
+|    |-- helpers
+|    |     |-- data.jsx
+|    |-- pages
+|    |     |-- Home.jsx
+|    |-- App.css
+|    |-- App.js
+|    |-- index.js
+|-- .gitignore
+|-- README.md
+|-- package.json
+|-- yarn.lock
+```
 
 
 
