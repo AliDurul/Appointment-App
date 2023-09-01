@@ -1,25 +1,95 @@
-## Welcome to My Project! 👋
+<p>Clarusway<img align="right"
+  src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
 
-Thank you for visiting my projects! I'm thrilled to have you here, and I hope you find it interesting and helpful.
+# Project-005 : Appointment App (RP-05)
 
-## About Me
-Firstly, I want to let you know that I am a  learner in the world of programming and development. I'm passionate about exploring different languages and technologies, and this project represents a part of my learning journey. So, please keep in mind that I'm still growing and improving my skills.
+## Description
 
-## Check Out My Other Projects 
-If you enjoyed exploring this project, I invite you to check out my other projects as well. I am passionate about programming and have worked on a variety of exciting projects.
+Project aims to create a Hospital Appointment App.
 
+## Problem Statement
 
+- We are adding a new project to our portfolios. So you and your colleagues have started to work on the project.
 
-Feel free to explore these projects at your convenience. Each one offers a unique experience and showcases different aspects of my skills and interests.
+## Project Skeleton
 
-## Author
-- Frontend Mentor - [@AliDurul](https://www.frontendmentor.io/profile/DURUL-26)
-- Githup - [@AliDurul](https://github.com/AliDurul)
+```
+005 - Appointment App (folder)
+|
+|----readme.md         # Given to the students (Definition of the project)
+SOLUTION
+├── public
+│     ├── img
+│     └── index.html
+├── src
+│    ├── components
+│    │       ├── AddModal.jsx
+│    │       ├── AppointmentList.jsx
+│    │       └── Doctors.jsx
+│    │
+│    ├── pages
+│    │       └── Home.jsx
+│    │
+│    ├── helpers
+│    │       └── Data.jsx
+│    │
+│    ├── App.js
+│    ├── App.css
+│    ├── index.js
+│    └── index.css
+├── package.json
+└── yarn.lock
+```
 
-## Feedback and Collaboration
-I value your feedback and suggestions. If you have any comments, questions, or ideas for improvement regarding this project or any of my other projects, please don't hesitate to reach out. I'm always open to collaboration and welcome the opportunity to work on exciting projects together.
+## Expected Outcome
 
-Thank you once again for visiting my project. I hope you have a wonderful experience exploring it, and I look forward to connecting with you soon!
+![Project 005 Snapshot](./appointment.gif)
 
+## Objective
 
+Build a Hospital Appointment App using ReactJS.
 
+### At the end of the project, following topics are to be covered;
+
+- HTML
+
+- CSS
+
+- JS
+
+- ReactJS
+
+### At the end of the project, students will be able to;
+
+- improve coding skills within HTML & CSS & JS & ReactJS.
+
+- use git commands (push, pull, commit, add etc.) and Github as Version Control System.
+
+## Steps to Solution
+
+- Step 1: Create React App using `npx create-react-app appointment-app`
+
+- Step 2 : Install `"react-icons"` package to your `package.json` for icons.
+
+- Step 3: Build Appointment App.
+
+- Step 4: You can use CSS frameworks like Bootstrap, React-Bootstrap etc.
+
+- Step 5: Push your application into your own public repo on Github
+
+- Step 6: Add project gif to your project and README.md file.
+
+## Notes
+
+- You can add additional functionalities to your app.
+
+## Demo
+
+[Appointment App Live](https://cw-appoinment-project.vercel.app/)
+
+## Additional Data
+
+- [Data.jsx](./helpers/data.jsx)
+- [images](./img)
+
+**<p align="center">&#9786; Happy Coding &#9997;</p>**
